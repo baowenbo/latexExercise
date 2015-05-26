@@ -1,0 +1,32 @@
+% use pdflatex engine
+\documentclass[UTF8]{ctexart}
+	
+\begin{document}
+{\CJKfamily{hei} 这是黑体}
+
+那么这个呢
+
+\CJKfamily{kai}
+这是楷体?
+
+然而这个也是的\ldots
+
+\CJKfamily{fs}
+还有仿宋这个鬼
+
+%\underline
+{
+\itshape
+\bfseries
+ctex 这个宏包和文档类另外定义了组合字体,使得Italic和bold,Roma等效果都可以附加在中文字体上.甚至是下划线哦...你敢信
+}
+
+\underline
+{
+	\itshape
+	\bfseries
+	ctex 这个宏包和文档类另外定义了组合字体,使得Italic和bold,Roma等效果都可以附加在中文字体上.甚至是下划线哦...你敢信,然而有点点bug
+}
+
+
+\end{document}

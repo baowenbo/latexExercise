@@ -1,0 +1,11 @@
+\document{article}
+
+\begin{document}
+\tiny word \\ 
+\scriptsize word \\
+\footnotesize word \\
+\small word\\
+\normasize word\\
+\Large word\\
+
+\end{document}

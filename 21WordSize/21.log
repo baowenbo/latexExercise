@@ -1,0 +1,57 @@
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.5.20)  23 MAY 2015 11:23
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**21.tex
+(./21.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./21.aux)
+\openout1 = `21.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--14
+
+ []
+
+[1
+
+] (./21.aux) ) 
+Here is how much of TeX's memory you used:
+ 209 strings out of 493724
+ 2139 string characters out of 6145899
+ 53043 words of memory out of 5000000
+ 3620 multiletter control sequences out of 15000+600000
+ 5433 words of font info for 20 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 23i,4n,17p,110b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 21.pdf (1 page).

@@ -1,0 +1,89 @@
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.5.20)  23 MAY 2015 13:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**26.tex
+(./26.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2015/02/16 v1.8 (Daniel Flipo)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\c@DefaultLines=\count88
+\c@DefaultDepth=\count89
+\DefaultFindent=\dimen103
+\DefaultNindent=\dimen104
+\DefaultSlope=\dimen105
+\DiscardVskip=\dimen106
+\L@lbox=\box26
+\L@tbox=\box27
+\c@L@lines=\count90
+\c@L@depth=\count91
+\L@Pindent=\dimen107
+\L@Findent=\dimen108
+\L@Nindent=\dimen109
+\L@lraise=\dimen110
+\L@first=\dimen111
+\L@next=\dimen112
+\L@slope=\dimen113
+\L@height=\dimen114
+\L@novskip=\dimen115
+\LettrineWidth=\dimen116
+\LettrineHeight=\dimen117
+\LettrineDepth=\dimen118
+
+Loading lettrine.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lettrine/lettrine.cfg)) (./26.aux
+)
+\openout1 = `26.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+ [1
+
+] (./26.aux) ) 
+Here is how much of TeX's memory you used:
+ 330 strings out of 493724
+ 3925 string characters out of 6145899
+ 53528 words of memory out of 5000000
+ 3732 multiletter control sequences out of 15000+600000
+ 4539 words of font info for 17 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 23i,4n,19p,153b,107s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 26.pdf (1 page).

@@ -1,0 +1,123 @@
+\documentclass{article}
+
+\usepackage{listings}
+\usepackage{xcolor}
+ 
+\renewcommand{\sfdefault}{phv}
+\renewcommand{\lstlistingname}{CODE}
+\usepackage{courier} 
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[cmyk]{0.43, 0.35,0.35,0.01}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,justification=raggedright,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={sf,bf,footnotesize}}
+\begin{document}
+	
+ 
+	\lstset{
+		language=[ANSI]{C},
+		backgroundcolor=\color{pink},
+		basicstyle=\footnotesize,
+ %		breakatwhitespace=false,
+		breaklines=true,
+%		captionpos=b,
+		commentstyle=\color{olive},
+		directivestyle=\color{blue},
+		extendedchars=false,
+		% frame=single,%shadowbox
+		framerule=0pt,
+		keywordstyle=\color{blue}\bfseries,
+		morekeywords={*,define,*,include...},
+		numbersep=5pt,
+		rulesepcolor=\color{red!20!green!20!blue!20},
+	%	showspaces=false,
+		%showstringspaces=false,
+		%showtabs=false,
+		stepnumber=2,
+		stringstyle=\color{purple},
+		tabsize=4,
+		title=\lstname
+		}
+		\lstset{flexiblecolumns}
+		
+\begin{lstlisting}[language=C,caption = C code]
+	//by baowenbo
+	/* hello world*/
+	
+	#include"stdio.h"
+	int main(int argc,char * argv){
+		printf("output a value\n");
+	}
+\end{lstlisting}
+
+	\lstset{
+		extendedchars=false,
+		commentstyle=\color{olive},
+		basicstyle=\footnotesize\ttfamily, % Standardschrift
+		numbers=left,               % Ort der Zeilennummern
+		numberstyle=\tiny,          % Stil der Zeilennummern
+		stepnumber=2,               % Abstand zwischen den Zeilennummern
+		numbersep=5pt,              % Abstand der Nummern zum Text
+		rulesepcolor=\color{red!20!green!20!blue!20},
+		tabsize=4,                  % Groesse von Tabs
+		extendedchars=true,         %
+		breaklines=true,            % Zeilen werden Umgebrochen
+		keywordstyle=\color{red},
+		frame=b,         
+		stringstyle=\color{purple}\ttfamily, % Farbe der String
+		showspaces=false,           % Leerzeichen anzeigen ?
+		showtabs=false,             % Tabs anzeigen ?
+		xleftmargin=17pt,
+		framexleftmargin=17pt,
+		framexrightmargin=5pt,
+		framexbottommargin=4pt,
+		backgroundcolor=\color{pink},
+		keywordstyle=\color{blue}\bfseries,
+		morekeywords={*,define,*,include...}
+		showstringspaces=false      % Leerzeichen in Strings anzeigen ?       
+	}
+\lstset{flexiblecolumns}
+	 
+\begin{lstlisting}[label=some-code,caption=Some Code,language=java]
+	public void here() {
+		goes().the().code()
+	}
+\end{lstlisting}
+\lstinputlisting[label=samplecode,caption=A sample,language=java]{
+		hello.java
+}
+
+
+\lstset{
+	language=[ANSI]{C++},
+	extendedchars=false,
+	commentstyle=\color{olive},
+	basicstyle=\footnotesize\ttfamily, % Standardschrift
+	numbers=left,               % Ort der Zeilennummern
+	numberstyle=\tiny,          % Stil der Zeilennummern
+	stepnumber=2,               % Abstand zwischen den Zeilennummern
+	numbersep=5pt,              % Abstand der Nummern zum Text
+	rulesepcolor=\color{red!20!green!20!blue!20},
+	tabsize=4,                  % Groesse von Tabs
+	extendedchars=true,         %
+	breaklines=true,            % Zeilen werden Umgebrochen
+	keywordstyle=\color{red},
+	frame=b,         
+	stringstyle=\color{purple}\ttfamily, % Farbe der String
+	showspaces=false,           % Leerzeichen anzeigen ?
+	showtabs=false,             % Tabs anzeigen ?
+	xleftmargin=17pt,
+	framexleftmargin=17pt,
+	framexrightmargin=5pt,
+	framexbottommargin=4pt,
+	backgroundcolor=\color{pink},
+	keywordstyle=\color{blue}\bfseries,
+	morekeywords={*,define,*,include...}
+	showstringspaces=false      % Leerzeichen in Strings anzeigen ?       
+}
+\lstset{flexiblecolumns}
+\lstset{morekeywords={dim3,__global__,__inline__,__device__}}
+\lstinputlisting[label=my cuda code,caption=A sample]{
+ my.cu
+}
+
+\end{document}
